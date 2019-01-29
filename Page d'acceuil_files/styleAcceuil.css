@@ -12,7 +12,8 @@ html, body {
 
 html {
     background: #736699 no-repeat center center fixed;
-    background: linear-gradient(#736699, gray) no-repeat center center fixed;
+    /*background: linear-gradient(#98780b, #803d2d) no-repeat center center fixed;*/
+    background-image: radial-gradient(closest-side ellipse, #2c407a, #001f68);
     background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -37,8 +38,8 @@ html {
 }
 
 .Box_link:hover {
-    border: #BC2D48 3px solid;
-  transform: scale(1.15);
+    border: rgb(54, 155, 177) 3px solid;
+  transform: scale(1.20);
 
 
 }
@@ -109,18 +110,18 @@ html {
 }
 
 .titre h1 {
-    font-size: 55px;
-    font-family: Sylfaen, Segoe UI, Arial, Papyrus, serif;
+    font-size: 65px;
+    font-family: "AR CENA", Segoe UI, Arial, serif;
     font-weight: bolder;
-    color: #CCCCCC;
+    color: #d0d0d0;
     text-align: center;
 }
 
 .titre h2 {
-    font-size: 50px;
-    font-family: Sylfaen, Segoe UI, Arial, Papyrus, serif;
+    font-size: 60px;
+    font-family: "AR CENA", Segoe UI, Arial, serif;
     font-weight: bolder;
-    color: #CCCCCC;
+    color: #d6d6d6;
     text-align: center;
 }
 
