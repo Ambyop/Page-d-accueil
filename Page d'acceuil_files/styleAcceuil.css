@@ -1,5 +1,5 @@
 body {
-    font-family: "Times New Roman", sans-serif;
+    font-family: 'Lucida Grande', sans-serif;
     margin: 0 auto;
     position: relative;
     z-index: 0;
@@ -11,13 +11,12 @@ html, body {
 }
 
 html {
-    background: #736699 no-repeat center center fixed;
-    /*background: linear-gradient(#98780b, #803d2d) no-repeat center center fixed;*/
-    background-image: radial-gradient(closest-side ellipse, #2c407a, #001f68);
+    background: linear-gradient(to bottom, rgb(94, 89, 91), rgb(77, 86, 91)) no-repeat center center fixed;
     background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
 }
+
 
 .bord {
     margin: 0 auto;
@@ -38,8 +37,8 @@ html {
 }
 
 .Box_link:hover {
-    border: rgb(54, 155, 177) 3px solid;
-  transform: scale(1.20);
+    border: rgb(200, 79, 89) 3px solid;
+  transform: scale(1.22);
 
 
 }
@@ -57,11 +56,11 @@ html {
 
 .Box_link a {
     text-decoration: none;
-    color: #FBFBFB;
-    font-family: 'Open Sans Condensed','Segoe UI WPC','Segoe UI',Arial,sans-serif;
+    color: #eeeeee;
+    font-family: 'Lucida Grande','Segoe UI WPC','Segoe UI',Arial,sans-serif;
     text-align: center;
     font-weight: bolder;
-    font-size: 30px;
+    font-size: 28px;
 }
 
 .Box_link p {
@@ -110,18 +109,18 @@ html {
 }
 
 .titre h1 {
-    font-size: 65px;
-    font-family: "AR CENA", Segoe UI, Arial, serif;
+    font-size: 75px;
+    font-family: SimSun,Segoe UI, Arial, sans-serif;
     font-weight: bolder;
-    color: #d0d0d0;
+    color: rgba(231, 231, 231, 0.89);
     text-align: center;
 }
 
 .titre h2 {
-    font-size: 60px;
-    font-family: "AR CENA", Segoe UI, Arial, serif;
+    font-size: 58px;
+    font-family:Rockwell, Segoe UI, Arial, serif;
     font-weight: bolder;
-    color: #d6d6d6;
+    color: rgba(231, 231, 231, 0.89);
     text-align: center;
 }
 
@@ -145,7 +144,7 @@ html {
 
 img {
     text-decoration: none;
-    border: 0px;
+    border: 0;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -186,28 +185,11 @@ img {
     border-top-width: 0 !important;
 }
 
-	/* Default close button class */
-/*.qtip-close {
-    position: absolute;
-    right: -9px;
-    top: -9px;
-    cursor: pointer;
-    outline: medium none;
-    border-width: 1px;
-    border-style: solid;
-    border-color: transparent;
-}*/
-
 .qtip-titlebar .qtip-close {
     right: 4px;
     top: 50%;
     margin-top: -9px;
 }
-
-/** html .qtip-titlebar .qtip-close {
-    top: 16px;
-} /* IE fix */
-*/
 
 .qtip-titlebar .ui-icon,
 .qtip-icon .ui-icon {
@@ -226,10 +208,10 @@ img {
 .qtip-icon .ui-icon {
     width: 18px;
     height: 14px;
-    line-height: 14px;
+    /*line-height: 14px;*/
     text-align: center;
     text-indent: 0;
-    font: normal bold 10px/13px Tahoma,sans-serif;
+    /*font: normal bold 10px/13px Tahoma,sans-serif;*/
     color: inherit;
     background: transparent none no-repeat -100em -100em;
 }
@@ -437,7 +419,6 @@ img {
 	background-image: -o-linear-gradient(top, #717171, #232323);
 
 	border: 2px solid #ddd;
-	border: 2px solid rgba(241,241,241,1);
 
 	-moz-border-radius: 2px;
 	-webkit-border-radius: 2px;
@@ -582,8 +563,7 @@ img {
 	/** Taken from Bootstrap .popover */
 	padding: 1px;
 	background-color: #ffffff;
-	border: 1px solid #ccc;
-	border: 1px solid rgba(0, 0, 0, 0.2);
+	border: 1px solid #cccccc;
 	-webkit-border-radius: 6px;
 	-moz-border-radius: 6px;
 	border-radius: 6px;
@@ -719,15 +699,14 @@ x:-o-prefocus, .qtip .qtip-tip{
 
 
 #InfosPage {
-    margin-top:0;
-    margin-right:42%;
-    margin-bottom:0;
-    margin-left:42%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 #flex_container {
     display: flex;
     flex-wrap: nowrap;
 }
 #contents-title {
-   color: whitesmoke;
+   color: rgba(234, 234, 234, 0.95);
 }
